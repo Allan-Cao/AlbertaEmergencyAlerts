@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- A guide on how to use this feed is available at http://www.netalerts.org/cap-feed.html -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:georss="http://www.georss.org/georss">
+<channel>
+  <title>Alberta Emergency Alert - Current</title>
+  <link>http://www.emergencyalert.alberta.ca/</link>
+  <atom:link href="http://www.emergencyalert.alberta.ca/aea/feed.rss" rel="self" type="application/rss+xml" />
+  <language>en</language>
+  <description>Alerts and Warnings from Alberta Emergency Alert</description>
+  <lastBuildDate>Wed, 28 Nov 2018 13:55:01 MST</lastBuildDate>
+  <generator>NetAlerts AlertFeed</generator>
+  <ttl>60</ttl>
+  <item>
+    <guid isPermaLink="false">tag:www.emergencyalert.alberta.ca,2018-11-28:CA-AB-AEA1-5503</guid>
+    <category domain="tag:netalerts.org,2015:level">test</category>
+    <title>Test Alert - Province Wide Test - Nov 28, 2018 at 01:55PM</title>
+    <description>** Sent to compatible devices in the affected area as a wireless Emergency Alert **&lt;br&gt;&lt;br&gt;This is an Alberta Emergency Alert.  Alberta Emergency Management Agency has issued a Province Wide Test Alert.  This alert is in effect for: Alberta.  This is only a TEST. If this had been an actual emergency or threat, you would now hear instructions that would assist you to protect you and your family.  For details visit www.emergencyalert.alberta.ca or stay tuned to local media.</description>
+    <link>http://www.emergencyalert.alberta.ca/alerts/2018/11/6197.html</link>
+    <enclosure length="500" type="application/common-alerting-protocol+xml" url="http://www.emergencyalert.alberta.ca/aea/2018/6197.cap" />
+    <dc:creator>Alberta Emergency Management Agency</dc:creator>
+    <dc:date>2018-11-28T13:55:00-07:00</dc:date>
+    <georss:point>55.169696 -114.511329</georss:point>
+  </item>
+</channel>
+</rss>
