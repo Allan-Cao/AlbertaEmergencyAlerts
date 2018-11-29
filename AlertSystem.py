@@ -1,15 +1,11 @@
 import feedparser
 link='https://emergencyalert.alberta.ca/aea/feed.rss'
-#link='C:/Users/Allan/Desktop/Emergency_Alerts/feed.rss'
-try:
-    alert = feedparser.parse(link)
-    current = alert.entries[0].title
-except:
-    current = 'NO ALERT'
+#link='feed.rss' # FOR TESTING PURPOSES (saved from the system test on November 28, 2018)
 import time
 import pyttsx3
 import os
 from playsound import playsound
+
 engine = pyttsx3.init()
 engine.setProperty('rate',125)
 print('initiated alert system')
@@ -31,7 +27,7 @@ while True:
         alerts = alert()
         for x in range(alerts):
             start = feedparser.parse(link).entries[x].title
-            os.system('nircmd setvolume 0 60000 0')
+            os.system('nircmd setvolume 0 65535 0')
             print("ALERT RECIEVED")
             print(start)
             playsound('alert.mp3')
